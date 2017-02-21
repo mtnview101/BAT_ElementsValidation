@@ -14,10 +14,12 @@ import org.testng.annotations.*;
 import java.lang.reflect.Method;
 
 public class ElementsValidationTest implements ITest {
-       static WebDriver driver;
-       static final String baseUrl = "http://alex.academy/exercises/signup/v1/";
+	static String in_browser = "Edge"; // "HtmlUnit" "Firefox" "Chrome"  "Safari"  "IE"  "Edge"
+    static WebDriver driver;
+    static final String baseUrl = "http://alex.academy/exercises/signup/v1/";
 
-       String csvFile = "./src/resources/test_data/csv/bat/elements_validation.csv";
+    String csvFile = "./src/resources/test_data/csv/bat/elements_validation.csv";
+    
        private String test_name = "";
        public String getTestName() {return test_name;}
        private void setTestName(String a) {test_name = a;}
@@ -36,48 +38,47 @@ public class ElementsValidationTest implements ITest {
               ArrayList<String[]> al = new ArrayList<>();
               BufferedReader br = new BufferedReader(new FileReader(csvFile));
               while ((cvsLine = br.readLine()) != null) {
-                     a = cvsLine.split(";");
+            	  System.out.println("cvsLine: "+cvsLine);
+                     a = cvsLine.split(",");
+                     //System.out.println("line: "+a);
                      al.add(a);}
               br.close();
               return al.iterator();}
        
        @Override
        @Test(dataProvider = "dp")
-       public void test(String tc_id, String url, String element_id, String element_size, String element_location) {
+       public void test(String tc_id, String url, String element_id, String element_size, String element_location) throws IOException {
+System.out.println(tc_id);
+System.out.println(url);
+System.out.println(element_id);
+System.out.println(element_size);
+System.out.println(element_location);
 
-              getDriver("chrome", url);
+              getDriver(url);
               assertThat(isPresent(element_id, driver), equalTo(true));
               assertThat(size(element_id, driver), equalTo(element_size));
               assertThat(location(element_id, driver), equalTo(element_location));}
 
        @AfterMethod 
-       public void am() {driver.close();}
+       public void am() {driver.quit();}
 
-       public static void getDriver(String browser, String url) {
-              if (browser.equalsIgnoreCase("chrome")) {
-                     Logger logger = Logger.getLogger("");
-                     logger.setLevel(Level.OFF);
-                     System.setProperty("webdriver.chrome.driver", "./src/resources/webdrivers/mac/chromedriver");
-                     System.setProperty("webdriver.chrome.silentOutput", "true");
-                     ChromeOptions option = new ChromeOptions();
-                     option.addArguments("-start-fullscreen");
-                     driver = new ChromeDriver(option);
-                     driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-              } else {driver = new HtmlUnitDriver();
-                     ((HtmlUnitDriver) driver).setJavascriptEnabled(true);
-                     driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);}
-              driver.get(baseUrl + url);}
+       public static void getDriver(String url) throws IOException {
+    	   Browsers.setWebDriver(in_browser);
+    	   driver = Browsers.driver;
+    	   driver.get(baseUrl + url);}
 
        public static boolean isPresent(String element_id, WebDriver wd) {
               driver = wd;
               if (driver.findElements(By.id(element_id)).size() > 0) {return true;}
              else {return false;}}
+       
        public static String size(String element_id, WebDriver wd) {
               driver = wd;
               String n = null;
               if (!driver.findElements(By.id(element_id)).isEmpty()) {
                    String s = driver.findElement(By.id(element_id)).getSize().toString(); return s;}
              else {return n;}}
+       
        public static String location(String element_id, WebDriver wd) {
               driver = wd;
               String n = null;
