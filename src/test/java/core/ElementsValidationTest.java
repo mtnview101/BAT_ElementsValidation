@@ -18,7 +18,7 @@ public class ElementsValidationTest implements ITest {
     static WebDriver driver;
     static final String baseUrl = "http://alex.academy/exercises/signup/v1/";
 
-    String csvFile = "./src/resources/test_data/csv/bat/elements_validation.csv";
+    String csvFile = "./src/resources/test_data/csv/bat/ev.properties";
     
        private String test_name = "";
        public String getTestName() {return test_name;}
@@ -39,7 +39,7 @@ public class ElementsValidationTest implements ITest {
               BufferedReader br = new BufferedReader(new FileReader(csvFile));
               while ((cvsLine = br.readLine()) != null) {
             	  System.out.println("cvsLine: "+cvsLine);
-                     a = cvsLine.split(",");
+                     a = cvsLine.split(";");
                      //System.out.println("line: "+a);
                      al.add(a);}
               br.close();

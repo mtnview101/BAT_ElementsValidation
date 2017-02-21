@@ -1,11 +1,11 @@
-Dynamic text (quote),index.php,id_quotes,(1901+20),(9+49)
-Page title (Sing Up),index.php,id_f_title,(151+44),(554+87)
-Dynamic text (current location),index.php,id_current_location,(178+24),(1150+71)
-Image (weather icon),index.php,id_weather_icon,0,0
-Dynamic text (temperature),index.php,id_temperature,0,0
+Dynamic text (quote),index.php,id_quotes,"(1904, 20)",(9+49)
+Page title (Sing Up),index.php,id_f_title,"(151, 46)",(554+87)
+Dynamic text (current location),index.php,id_current_location,"(178, 25)",(1150+71)
+Image (weather icon),index.php,id_weather_icon,"(50, 50)",0
+Dynamic text (temperature),index.php,id_temperature,"(70, 42)",0
 Label (first name),index.php,id_f_label_fn,0,0
 Field (first name),index.php,id_fname,0,0
-Label (last name),index.php,id_l_label_fn,0,0
+Label (last name),index.php,id_f_label_ln,0,0
 Field (last name),index.php,id_lname,0,0
 Label (email address),index.php,id_f_label_ea,0,0
 Field (email address),index.php,id_email,0,0
@@ -14,7 +14,7 @@ Field (phone number),index.php,id_phone,0,0
 Label (radio male),index.php,id_r_label_m,0,0
 Radio Button (male),index.php,id_g_radio_01,0,0
 Label (radio female),index.php,id_r_label_f,0,0
-Radio Button (male),index.php,id_g_radio_02,0,0
+Radio Button (female),index.php,id_g_radio_02,0,0
 Label (state),index.php,id_f_label_s,0,0
 Drop-down List (state),index.php,id_state,0,0
 Label (I agree to the Terms),index.php,id_cb_label,0,0
@@ -29,18 +29,18 @@ Dynamic text (today’s date),index.php,timestamp,0,0
 Dynamic text (copyright),index.php,copyright,0,0
 Dynamic text (os & browser),index.php,os_browser,0,0
 Page title (Confirmation),confirmation.php,id_f_title,0,0
-Label (first name),confirmation.php,id_fname_conf,0,0
-Field (first name),confirmation.php,id_fname_conf,0,0
-Label (last name),confirmation.php,id_f_label_ln_conf,0,0
-Field (last name),confirmation.php,id_lname_conf,0,0
-Label (email address),confirmation.php,id_f_label_email_conf,0,0
-Field (email address),confirmation.php,id_email_conf,0,0
-Label (phone number),confirmation.php,id_f_label_phone_conf,0,0
-Field (phone number),confirmation.php,id_phone_conf,0,0
-Label (gender),confirmation.php,id_f_label_gender_conf,0,0
-Field (gender),confirmation.php,id_gender_conf,0,0
-Label (state),confirmation.php,id_f_label_state_conf,0,0
-Field (state),confirmation.php,id_state_conf,0,0
-Label (Terms?),confirmation.php,id_f_label_terms_conf,0,0
-Field (terms),confirmation.php,id_terms_conf,0,0
-Button (Back),confirmation.php,id_back_button,0,0
+Confirmation Label (first name),confirmation.php,id_fname_conf,0,0
+Confirmation Field (first name),confirmation.php,id_fname_conf,0,0
+Confirmation Label (last name),confirmation.php,id_f_label_ln_conf,0,0
+Confirmation Field (last name),confirmation.php,id_lname_conf,0,0
+Confirmation Label (email address),confirmation.php,id_f_label_email_conf,0,0
+Confirmation Field (email address),confirmation.php,id_email_conf,0,0
+Confirmation Label (phone number),confirmation.php,id_f_label_phone_conf,0,0
+Confirmation Field (phone number),confirmation.php,id_phone_conf,0,0
+Confirmation Label (gender),confirmation.php,id_f_label_gender_conf,0,0
+Confirmation Field (gender),confirmation.php,id_gender_conf,0,0
+Confirmation Label (state),confirmation.php,id_f_label_state_conf,0,0
+Confirmation Field (state),confirmation.php,id_state_conf,0,0
+Confirmation Label (Terms?),confirmation.php,id_f_label_terms_conf,0,0
+Confirmation Field (terms),confirmation.php,id_terms_conf,0,0
+Confirmation Button (Back),confirmation.php,id_back_button,,
