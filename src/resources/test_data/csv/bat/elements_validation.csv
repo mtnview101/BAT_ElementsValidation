@@ -1,46 +1,46 @@
-Dynamic text (quote),index.php,id_quotes,"(1904, 20)",(9+49)
-Page title (Sing Up),index.php,id_f_title,"(151, 46)",(554+87)
-Dynamic text (current location),index.php,id_current_location,"(178, 25)",(1150+71)
-Image (weather icon),index.php,id_weather_icon,"(50, 50)",0
-Dynamic text (temperature),index.php,id_temperature,"(70, 42)",0
-Label (first name),index.php,id_f_label_fn,0,0
-Field (first name),index.php,id_fname,0,0
-Label (last name),index.php,id_f_label_ln,0,0
-Field (last name),index.php,id_lname,0,0
-Label (email address),index.php,id_f_label_ea,0,0
-Field (email address),index.php,id_email,0,0
-Label (phone number),index.php,id_f_label_pn,0,0
-Field (phone number),index.php,id_phone,0,0
-Label (radio male),index.php,id_r_label_m,0,0
-Radio Button (male),index.php,id_g_radio_01,0,0
-Label (radio female),index.php,id_r_label_f,0,0
-Radio Button (female),index.php,id_g_radio_02,0,0
-Label (state),index.php,id_f_label_s,0,0
-Drop-down List (state),index.php,id_state,0,0
-Label (I agree to the Terms),index.php,id_cb_label,0,0
-Checkbox (terms),index.php,id_checkbox,0,0
-Image (facebook),index.php,id_img_facebook,0,0
-Image (twitter),index.php,id_img_twitter,0,0
-Image (flickr),index.php,id_img_flickr,0,0
-Image (youtube),index.php,id_img_youtube,0,0
-Button (Reset),index.php,id_reset_button,0,0
-Button (Submit),index.php,id_submit_button,0,0
-Dynamic text (today’s date),index.php,timestamp,0,0
-Dynamic text (copyright),index.php,copyright,0,0
-Dynamic text (os & browser),index.php,os_browser,0,0
-Page title (Confirmation),confirmation.php,id_f_title,0,0
-Confirmation Label (first name),confirmation.php,id_fname_conf,0,0
-Confirmation Field (first name),confirmation.php,id_fname_conf,0,0
-Confirmation Label (last name),confirmation.php,id_f_label_ln_conf,0,0
-Confirmation Field (last name),confirmation.php,id_lname_conf,0,0
-Confirmation Label (email address),confirmation.php,id_f_label_email_conf,0,0
-Confirmation Field (email address),confirmation.php,id_email_conf,0,0
-Confirmation Label (phone number),confirmation.php,id_f_label_phone_conf,0,0
-Confirmation Field (phone number),confirmation.php,id_phone_conf,0,0
-Confirmation Label (gender),confirmation.php,id_f_label_gender_conf,0,0
-Confirmation Field (gender),confirmation.php,id_gender_conf,0,0
-Confirmation Label (state),confirmation.php,id_f_label_state_conf,0,0
-Confirmation Field (state),confirmation.php,id_state_conf,0,0
-Confirmation Label (Terms?),confirmation.php,id_f_label_terms_conf,0,0
-Confirmation Field (terms),confirmation.php,id_terms_conf,0,0
-Confirmation Button (Back),confirmation.php,id_back_button,,
+"Dynamic text (quote);index.php;id_quotes;(0000, 00);(0, 00)"
+"Page title (Sing Up);index.php;id_f_title;(000, 00);(000, 00)"
+"text (current location);index.php;id_current_location;(000, 00);(0000, 00)"
+"Image (weather icon);index.php;id_weather_icon;(00, 00);(0000, 00)"
+"Dynamic text (temperature);index.php;id_temperature;(00, 00);(0000, 00)"
+"Label (first name);index.php;id_f_label_fn;(000, 00);(000, 000)"
+"Field (first name);index.php;id_fname;(000, 00);(000, 000)"
+"Label (last name);index.php;id_f_label_ln;(000, 00);(000, 000)"
+"Field (last name);index.php;id_lname;(000, 00);(000, 000)"
+"Label (email address);index.php;id_f_label_ea;(000, 00);(000, 000)"
+"Field (email address);index.php;id_email;(000, 00);(000, 000)"
+"Label (phone number);index.php;id_f_label_pn;(000, 00);(000, 000)"
+"Field (phone number);index.php;id_phone;(000, 00);(000, 000)"
+"Label (radio male);index.php;id_r_label_m;(00, 00);(000, 000)"
+"Radio Button (male);index.php;id_g_radio_00;(00, 00);(000, 000)"
+"Label (radio female);index.php;id_r_label_f;(00, 00);(000, 000)"
+"Radio Button (female);index.php;id_g_radio_00;(00, 00);(000, 000)"
+"Label (state);index.php;id_f_label_s;(00, 00);(000, 000)"
+"Drop-down List (state);index.php;id_state;(000, 00);(000, 000)"
+"Label (I agree to the Terms);index.php;id_cb_label;(000, 00);(000, 000)"
+"Checkbox (terms);index.php;id_checkbox;(00, 00);(000, 000)"
+"Image (facebook);index.php;id_img_facebook;(00, 00);(000, 000)"
+"Image (twitter);index.php;id_img_twitter;(00, 00);(000, 000)"
+"Image (flickr);index.php;id_img_flickr;(00, 00);(000, 000)"
+"Image (youtube);index.php;id_img_youtube;(00, 00);(000, 000)"
+"Button (Reset);index.php;id_reset_button;(000, 00);(000, 000)"
+"Button (Submit);index.php;id_submit_button;(000, 00);(0000, 000)"
+"Dynamic text (today?s date);index.php;timestamp;(000, 00);(000, 000)"
+"Dynamic text (copyright);index.php;copyright;(000, 00);(000, 000)"
+"Dynamic text (os & browser);index.php;os_browser;(000, 00);(0000, 000)"
+"Page title (Confirmation);confirmation.php;id_f_title;(000, 00);(000, 00)"
+"Confirmation Label (first name);confirmation.php;id_f_label_fn_conf;(000, 00);(000, 000)"
+"Confirmation Field (first name);confirmation.php;id_fname_conf;(00, 00);(000, 000)"
+"Confirmation Label (last name);confirmation.php;id_f_label_ln_conf;(000, 00);(000, 000)"
+"Confirmation Field (last name);confirmation.php;id_lname_conf;(00, 00);(000, 000)"
+"Confirmation Label (email address);confirmation.php;id_f_label_email_conf;(000, 00);(000, 000)"
+"Confirmation Field (email address);confirmation.php;id_email_conf;(00, 00);(000, 000)"
+"Confirmation Label (phone number);confirmation.php;id_f_label_phone_conf;(000, 00);(000, 000)"
+"Confirmation Field (phone number);confirmation.php;id_phone_conf;(00, 00);(000, 000)"
+"Confirmation Label (gender);confirmation.php;id_f_label_gender_conf;(00, 00);(000, 000)"
+"Confirmation Field (gender);confirmation.php;id_gender_conf;(00, 00);(000, 000)"
+"Confirmation Label (state);confirmation.php;id_f_label_state_conf;(00, 00);(000, 000)"
+"Confirmation Field (state);confirmation.php;id_state_conf;(00, 00);(000, 000)"
+"Confirmation Label (Terms?);confirmation.php;id_f_label_terms_conf;(00, 00);(000, 000)"
+"Confirmation Field (terms);confirmation.php;id_terms_conf;(00, 00);(000, 000)"
+"Confirmation Button (Back);confirmation.php;id_back_button;(000, 00);(000, 000)"
