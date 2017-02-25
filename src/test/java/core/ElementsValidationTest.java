@@ -18,8 +18,8 @@ public class ElementsValidationTest implements ITest {
     static WebDriver driver;
     static final String baseUrl = "http://alex.academy/exercises/signup/v1/";
 
-    String csvFile = "./src/resources/test_data/csv/bat/ev.properties";
-    //String csvFile = "./src/resources/test_data/csv/bat/elements_validation_6.csv";
+    //String csvFile = "./src/resources/test_data/csv/bat/ev.properties";
+    String csvFile = "./src/resources/test_data/csv/bat/ev_3.csv";
     
        private String test_name = "";
        public String getTestName() {return test_name;}

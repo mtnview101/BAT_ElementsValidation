@@ -15,14 +15,14 @@ import java.lang.reflect.Method;
 import org.testng.asserts.SoftAssert;
 
 public class ElementsValidationTest2 implements ITest {
-	static String in_browser = "Edge"; // "HtmlUnit" "Firefox" "Chrome"  "Safari"  "IE"  "Edge"
+	static String in_browser = "Firefox"; // "HtmlUnit" "Firefox" "Chrome"  "Safari"  "IE"  "Edge"
     static WebDriver driver;
     static final String baseUrl = "http://alex.academy/exercises/signup/v1/";
     static String urlOld="1";
 
     //String csvFile = "./src/resources/test_data/csv/bat/ev.properties";
     //String csvFile = "./src/resources/test_data/csv/bat/elements_validation_chrome.csv";
-    String csvFile = "./src/resources/test_data/csv/bat/elements_validation_3.csv";
+    String csvFile = "./src/resources/test_data/csv/bat/ev_30_FF.csv";
     SoftAssert s_assert = new SoftAssert();
     
        private String test_name = "";

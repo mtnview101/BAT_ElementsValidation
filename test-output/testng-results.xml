@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="31" passed="31">
+<testng-results skipped="0" failed="0" ignored="0" total="30" passed="30">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="154047" started-at="2017-02-23T21:45:40Z" finished-at="2017-02-23T21:48:15Z">
+  <suite name="Default suite" duration-ms="16015" started-at="2017-02-25T04:03:12Z" finished-at="2017-02-25T04:03:28Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="154047" started-at="2017-02-23T21:45:40Z" finished-at="2017-02-23T21:48:15Z">
-      <class name="core.ElementsValidationTest">
-        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTest@d8355a8]" test-instance-name="Page title (Confirmation)" name="bm" is-config="true" duration-ms="0" started-at="2017-02-23T13:45:41Z" finished-at="2017-02-23T13:45:41Z">
+    <test name="Default test" duration-ms="16015" started-at="2017-02-25T04:03:12Z" finished-at="2017-02-25T04:03:28Z">
+      <class name="core.ElementsValidationTest2">
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTest2@3ffc5af1]" test-instance-name="Dynamic text (os &amp; browser)" name="bm" is-config="true" duration-ms="8" started-at="2017-02-24T20:03:12Z" finished-at="2017-02-24T20:03:12Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void core.ElementsValidationTest.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException]]>
+                <![CDATA[public void core.ElementsValidationTest2.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[[Ljava.lang.Object;@7dfd3c81]]>
+                <![CDATA[[Ljava.lang.Object;@1b410b60]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bm -->
-        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTest@d8355a8]" test-instance-name="Page title (Confirmation)" name="test" duration-ms="2658" started-at="2017-02-23T13:45:41Z" data-provider="dp" finished-at="2017-02-23T13:45:43Z">
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTest2@3ffc5af1]" test-instance-name="Dynamic text (os &amp; browser)" name="test" duration-ms="11297" started-at="2017-02-24T20:03:12Z" data-provider="dp" finished-at="2017-02-24T20:03:23Z">
           <params>
             <param index="0">
               <value>
@@ -54,27 +54,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="am()[pri:0, instance:core.ElementsValidationTest@d8355a8]" test-instance-name="Page title (Confirmation)" name="am" is-config="true" duration-ms="3050" started-at="2017-02-23T13:45:43Z" finished-at="2017-02-23T13:45:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- am -->
-        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTest@d8355a8]" test-instance-name="Page title (Confirmation)" name="bm" is-config="true" duration-ms="0" started-at="2017-02-23T13:45:46Z" finished-at="2017-02-23T13:45:46Z">
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTest2@3ffc5af1]" test-instance-name="Dynamic text (os &amp; browser)" name="bm" is-config="true" duration-ms="1" started-at="2017-02-24T20:03:23Z" finished-at="2017-02-24T20:03:23Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void core.ElementsValidationTest.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException]]>
+                <![CDATA[public void core.ElementsValidationTest2.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[[Ljava.lang.Object;@2584b82d]]>
+                <![CDATA[[Ljava.lang.Object;@2462cb01]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bm -->
-        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTest@d8355a8]" test-instance-name="Page title (Confirmation)" name="test" duration-ms="2160" started-at="2017-02-23T13:45:46Z" data-provider="dp" finished-at="2017-02-23T13:45:48Z">
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTest2@3ffc5af1]" test-instance-name="Dynamic text (os &amp; browser)" name="test" duration-ms="110" started-at="2017-02-24T20:03:23Z" data-provider="dp" finished-at="2017-02-24T20:03:23Z">
           <params>
             <param index="0">
               <value>
@@ -105,27 +101,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="am()[pri:0, instance:core.ElementsValidationTest@d8355a8]" test-instance-name="Page title (Confirmation)" name="am" is-config="true" duration-ms="2886" started-at="2017-02-23T13:45:48Z" finished-at="2017-02-23T13:45:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- am -->
-        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTest@d8355a8]" test-instance-name="Page title (Confirmation)" name="bm" is-config="true" duration-ms="0" started-at="2017-02-23T13:45:51Z" finished-at="2017-02-23T13:45:51Z">
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTest2@3ffc5af1]" test-instance-name="Dynamic text (os &amp; browser)" name="bm" is-config="true" duration-ms="0" started-at="2017-02-24T20:03:23Z" finished-at="2017-02-24T20:03:23Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void core.ElementsValidationTest.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException]]>
+                <![CDATA[public void core.ElementsValidationTest2.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[[Ljava.lang.Object;@7bbc8656]]>
+                <![CDATA[[Ljava.lang.Object;@19b843ba]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bm -->
-        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTest@d8355a8]" test-instance-name="Page title (Confirmation)" name="test" duration-ms="1987" started-at="2017-02-23T13:45:51Z" data-provider="dp" finished-at="2017-02-23T13:45:53Z">
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTest2@3ffc5af1]" test-instance-name="Dynamic text (os &amp; browser)" name="test" duration-ms="127" started-at="2017-02-24T20:03:23Z" data-provider="dp" finished-at="2017-02-24T20:03:23Z">
           <params>
             <param index="0">
               <value>
@@ -144,7 +136,7 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[(178, 25)]]>
+                <![CDATA[(177, 25)]]>
               </value>
             </param>
             <param index="4">
@@ -156,11 +148,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="am()[pri:0, instance:core.ElementsValidationTest@d8355a8]" test-instance-name="Page title (Confirmation)" name="am" is-config="true" duration-ms="2881" started-at="2017-02-23T13:45:53Z" finished-at="2017-02-23T13:45:56Z">
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTest2@3ffc5af1]" test-instance-name="Dynamic text (os &amp; browser)" name="bm" is-config="true" duration-ms="0" started-at="2017-02-24T20:03:23Z" finished-at="2017-02-24T20:03:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.ElementsValidationTest2.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@64ec96c6]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- am -->
-        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTest@d8355a8]" test-instance-name="Page title (Confirmation)" name="test" duration-ms="1940" started-at="2017-02-23T13:45:56Z" data-provider="dp" finished-at="2017-02-23T13:45:58Z">
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTest2@3ffc5af1]" test-instance-name="Dynamic text (os &amp; browser)" name="test" duration-ms="84" started-at="2017-02-24T20:03:23Z" data-provider="dp" finished-at="2017-02-24T20:03:23Z">
           <params>
             <param index="0">
               <value>
@@ -191,43 +195,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTest@d8355a8]" test-instance-name="Page title (Confirmation)" name="bm" is-config="true" duration-ms="0" started-at="2017-02-23T13:45:56Z" finished-at="2017-02-23T13:45:56Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.ElementsValidationTest.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[Ljava.lang.Object;@6933b6c6]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bm -->
-        <test-method status="PASS" signature="am()[pri:0, instance:core.ElementsValidationTest@d8355a8]" test-instance-name="Page title (Confirmation)" name="am" is-config="true" duration-ms="2918" started-at="2017-02-23T13:45:58Z" finished-at="2017-02-23T13:46:01Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- am -->
-        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTest@d8355a8]" test-instance-name="Page title (Confirmation)" name="bm" is-config="true" duration-ms="0" started-at="2017-02-23T13:46:01Z" finished-at="2017-02-23T13:46:01Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.ElementsValidationTest.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[Ljava.lang.Object;@7d3e8655]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bm -->
-        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTest@d8355a8]" test-instance-name="Page title (Confirmation)" name="test" duration-ms="1973" started-at="2017-02-23T13:46:01Z" data-provider="dp" finished-at="2017-02-23T13:46:03Z">
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTest2@3ffc5af1]" test-instance-name="Dynamic text (os &amp; browser)" name="test" duration-ms="98" started-at="2017-02-24T20:03:23Z" data-provider="dp" finished-at="2017-02-24T20:03:23Z">
           <params>
             <param index="0">
               <value>
@@ -246,23 +214,35 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[(70, 42)]]>
+                <![CDATA[(69, 42)]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[(1264, 92)]]>
+                <![CDATA[(1264, 103)]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="am()[pri:0, instance:core.ElementsValidationTest@d8355a8]" test-instance-name="Page title (Confirmation)" name="am" is-config="true" duration-ms="2885" started-at="2017-02-23T13:46:03Z" finished-at="2017-02-23T13:46:06Z">
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTest2@3ffc5af1]" test-instance-name="Dynamic text (os &amp; browser)" name="bm" is-config="true" duration-ms="0" started-at="2017-02-24T20:03:23Z" finished-at="2017-02-24T20:03:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.ElementsValidationTest2.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@77659b30]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- am -->
-        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTest@d8355a8]" test-instance-name="Page title (Confirmation)" name="test" duration-ms="2055" started-at="2017-02-23T13:46:06Z" data-provider="dp" finished-at="2017-02-23T13:46:08Z">
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTest2@3ffc5af1]" test-instance-name="Dynamic text (os &amp; browser)" name="test" duration-ms="72" started-at="2017-02-24T20:03:23Z" data-provider="dp" finished-at="2017-02-24T20:03:23Z">
           <params>
             <param index="0">
               <value>
@@ -286,34 +266,30 @@
             </param>
             <param index="4">
               <value>
-                <![CDATA[(560, 153)]]>
+                <![CDATA[(560, 152)]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTest@d8355a8]" test-instance-name="Page title (Confirmation)" name="bm" is-config="true" duration-ms="0" started-at="2017-02-23T13:46:06Z" finished-at="2017-02-23T13:46:06Z">
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTest2@3ffc5af1]" test-instance-name="Dynamic text (os &amp; browser)" name="bm" is-config="true" duration-ms="0" started-at="2017-02-24T20:03:23Z" finished-at="2017-02-24T20:03:23Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void core.ElementsValidationTest.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException]]>
+                <![CDATA[public void core.ElementsValidationTest2.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[[Ljava.lang.Object;@7dfb0c0f]]>
+                <![CDATA[[Ljava.lang.Object;@456d6c1e]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bm -->
-        <test-method status="PASS" signature="am()[pri:0, instance:core.ElementsValidationTest@d8355a8]" test-instance-name="Page title (Confirmation)" name="am" is-config="true" duration-ms="2889" started-at="2017-02-23T13:46:08Z" finished-at="2017-02-23T13:46:11Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- am -->
-        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTest@d8355a8]" test-instance-name="Page title (Confirmation)" name="test" duration-ms="2019" started-at="2017-02-23T13:46:11Z" data-provider="dp" finished-at="2017-02-23T13:46:13Z">
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTest2@3ffc5af1]" test-instance-name="Dynamic text (os &amp; browser)" name="test" duration-ms="86" started-at="2017-02-24T20:03:23Z" data-provider="dp" finished-at="2017-02-24T20:03:24Z">
           <params>
             <param index="0">
               <value>
@@ -332,7 +308,7 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[(368, 42)]]>
+                <![CDATA[(356, 43)]]>
               </value>
             </param>
             <param index="4">
@@ -344,27 +320,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTest@d8355a8]" test-instance-name="Page title (Confirmation)" name="bm" is-config="true" duration-ms="0" started-at="2017-02-23T13:46:11Z" finished-at="2017-02-23T13:46:11Z">
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTest2@3ffc5af1]" test-instance-name="Dynamic text (os &amp; browser)" name="bm" is-config="true" duration-ms="0" started-at="2017-02-24T20:03:23Z" finished-at="2017-02-24T20:03:23Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void core.ElementsValidationTest.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException]]>
+                <![CDATA[public void core.ElementsValidationTest2.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[[Ljava.lang.Object;@626abbd0]]>
+                <![CDATA[[Ljava.lang.Object;@1e13529a]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bm -->
-        <test-method status="PASS" signature="am()[pri:0, instance:core.ElementsValidationTest@d8355a8]" test-instance-name="Page title (Confirmation)" name="am" is-config="true" duration-ms="2907" started-at="2017-02-23T13:46:13Z" finished-at="2017-02-23T13:46:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- am -->
-        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTest@d8355a8]" test-instance-name="Page title (Confirmation)" name="test" duration-ms="2319" started-at="2017-02-23T13:46:16Z" data-provider="dp" finished-at="2017-02-23T13:46:18Z">
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTest2@3ffc5af1]" test-instance-name="Dynamic text (os &amp; browser)" name="test" duration-ms="70" started-at="2017-02-24T20:03:24Z" data-provider="dp" finished-at="2017-02-24T20:03:24Z">
           <params>
             <param index="0">
               <value>
@@ -388,50 +360,46 @@
             </param>
             <param index="4">
               <value>
-                <![CDATA[(985, 153)]]>
+                <![CDATA[(985, 152)]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTest@d8355a8]" test-instance-name="Page title (Confirmation)" name="bm" is-config="true" duration-ms="0" started-at="2017-02-23T13:46:16Z" finished-at="2017-02-23T13:46:16Z">
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTest2@3ffc5af1]" test-instance-name="Dynamic text (os &amp; browser)" name="bm" is-config="true" duration-ms="0" started-at="2017-02-24T20:03:24Z" finished-at="2017-02-24T20:03:24Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void core.ElementsValidationTest.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException]]>
+                <![CDATA[public void core.ElementsValidationTest2.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[[Ljava.lang.Object;@169bb4dd]]>
+                <![CDATA[[Ljava.lang.Object;@1ec9bd38]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bm -->
-        <test-method status="PASS" signature="am()[pri:0, instance:core.ElementsValidationTest@d8355a8]" test-instance-name="Page title (Confirmation)" name="am" is-config="true" duration-ms="2871" started-at="2017-02-23T13:46:18Z" finished-at="2017-02-23T13:46:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- am -->
-        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTest@d8355a8]" test-instance-name="Page title (Confirmation)" name="bm" is-config="true" duration-ms="0" started-at="2017-02-23T13:46:21Z" finished-at="2017-02-23T13:46:21Z">
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTest2@3ffc5af1]" test-instance-name="Dynamic text (os &amp; browser)" name="bm" is-config="true" duration-ms="1" started-at="2017-02-24T20:03:24Z" finished-at="2017-02-24T20:03:24Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void core.ElementsValidationTest.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException]]>
+                <![CDATA[public void core.ElementsValidationTest2.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[[Ljava.lang.Object;@1f9e9475]]>
+                <![CDATA[[Ljava.lang.Object;@452e19ca]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bm -->
-        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTest@d8355a8]" test-instance-name="Page title (Confirmation)" name="test" duration-ms="2318" started-at="2017-02-23T13:46:21Z" data-provider="dp" finished-at="2017-02-23T13:46:23Z">
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTest2@3ffc5af1]" test-instance-name="Dynamic text (os &amp; browser)" name="test" duration-ms="74" started-at="2017-02-24T20:03:24Z" data-provider="dp" finished-at="2017-02-24T20:03:24Z">
           <params>
             <param index="0">
               <value>
@@ -450,7 +418,7 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[(368, 42)]]>
+                <![CDATA[(356, 43)]]>
               </value>
             </param>
             <param index="4">
@@ -462,27 +430,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="am()[pri:0, instance:core.ElementsValidationTest@d8355a8]" test-instance-name="Page title (Confirmation)" name="am" is-config="true" duration-ms="2889" started-at="2017-02-23T13:46:23Z" finished-at="2017-02-23T13:46:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- am -->
-        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTest@d8355a8]" test-instance-name="Page title (Confirmation)" name="bm" is-config="true" duration-ms="0" started-at="2017-02-23T13:46:26Z" finished-at="2017-02-23T13:46:26Z">
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTest2@3ffc5af1]" test-instance-name="Dynamic text (os &amp; browser)" name="bm" is-config="true" duration-ms="1" started-at="2017-02-24T20:03:24Z" finished-at="2017-02-24T20:03:24Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void core.ElementsValidationTest.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException]]>
+                <![CDATA[public void core.ElementsValidationTest2.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[[Ljava.lang.Object;@3aa078fd]]>
+                <![CDATA[[Ljava.lang.Object;@6b0d80ed]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bm -->
-        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTest@d8355a8]" test-instance-name="Page title (Confirmation)" name="test" duration-ms="2042" started-at="2017-02-23T13:46:26Z" data-provider="dp" finished-at="2017-02-23T13:46:28Z">
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTest2@3ffc5af1]" test-instance-name="Dynamic text (os &amp; browser)" name="test" duration-ms="65" started-at="2017-02-24T20:03:24Z" data-provider="dp" finished-at="2017-02-24T20:03:24Z">
           <params>
             <param index="0">
               <value>
@@ -501,39 +465,35 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[(138, 25)]]>
+                <![CDATA[(137, 25)]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[(560, 233)]]>
+                <![CDATA[(560, 232)]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="am()[pri:0, instance:core.ElementsValidationTest@d8355a8]" test-instance-name="Page title (Confirmation)" name="am" is-config="true" duration-ms="2908" started-at="2017-02-23T13:46:28Z" finished-at="2017-02-23T13:46:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- am -->
-        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTest@d8355a8]" test-instance-name="Page title (Confirmation)" name="bm" is-config="true" duration-ms="0" started-at="2017-02-23T13:46:31Z" finished-at="2017-02-23T13:46:31Z">
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTest2@3ffc5af1]" test-instance-name="Dynamic text (os &amp; browser)" name="bm" is-config="true" duration-ms="1" started-at="2017-02-24T20:03:24Z" finished-at="2017-02-24T20:03:24Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void core.ElementsValidationTest.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException]]>
+                <![CDATA[public void core.ElementsValidationTest2.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[[Ljava.lang.Object;@d23e042]]>
+                <![CDATA[[Ljava.lang.Object;@6f8e8894]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bm -->
-        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTest@d8355a8]" test-instance-name="Page title (Confirmation)" name="test" duration-ms="1945" started-at="2017-02-23T13:46:31Z" data-provider="dp" finished-at="2017-02-23T13:46:33Z">
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTest2@3ffc5af1]" test-instance-name="Dynamic text (os &amp; browser)" name="test" duration-ms="206" started-at="2017-02-24T20:03:24Z" data-provider="dp" finished-at="2017-02-24T20:03:24Z">
           <params>
             <param index="0">
               <value>
@@ -552,7 +512,7 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[(368, 42)]]>
+                <![CDATA[(356, 43)]]>
               </value>
             </param>
             <param index="4">
@@ -564,27 +524,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="am()[pri:0, instance:core.ElementsValidationTest@d8355a8]" test-instance-name="Page title (Confirmation)" name="am" is-config="true" duration-ms="2932" started-at="2017-02-23T13:46:33Z" finished-at="2017-02-23T13:46:36Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- am -->
-        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTest@d8355a8]" test-instance-name="Page title (Confirmation)" name="bm" is-config="true" duration-ms="0" started-at="2017-02-23T13:46:36Z" finished-at="2017-02-23T13:46:36Z">
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTest2@3ffc5af1]" test-instance-name="Dynamic text (os &amp; browser)" name="bm" is-config="true" duration-ms="0" started-at="2017-02-24T20:03:24Z" finished-at="2017-02-24T20:03:24Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void core.ElementsValidationTest.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException]]>
+                <![CDATA[public void core.ElementsValidationTest2.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[[Ljava.lang.Object;@46d59067]]>
+                <![CDATA[[Ljava.lang.Object;@3cfdd820]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bm -->
-        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTest@d8355a8]" test-instance-name="Page title (Confirmation)" name="test" duration-ms="1934" started-at="2017-02-23T13:46:36Z" data-provider="dp" finished-at="2017-02-23T13:46:38Z">
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTest2@3ffc5af1]" test-instance-name="Dynamic text (os &amp; browser)" name="test" duration-ms="63" started-at="2017-02-24T20:03:24Z" data-provider="dp" finished-at="2017-02-24T20:03:24Z">
           <params>
             <param index="0">
               <value>
@@ -608,34 +564,14 @@
             </param>
             <param index="4">
               <value>
-                <![CDATA[(985, 233)]]>
+                <![CDATA[(985, 232)]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="am()[pri:0, instance:core.ElementsValidationTest@d8355a8]" test-instance-name="Page title (Confirmation)" name="am" is-config="true" duration-ms="2904" started-at="2017-02-23T13:46:38Z" finished-at="2017-02-23T13:46:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- am -->
-        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTest@d8355a8]" test-instance-name="Page title (Confirmation)" name="bm" is-config="true" duration-ms="0" started-at="2017-02-23T13:46:41Z" finished-at="2017-02-23T13:46:41Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.ElementsValidationTest.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[Ljava.lang.Object;@2d0399f4]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bm -->
-        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTest@d8355a8]" test-instance-name="Page title (Confirmation)" name="test" duration-ms="2039" started-at="2017-02-23T13:46:41Z" data-provider="dp" finished-at="2017-02-23T13:46:43Z">
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTest2@3ffc5af1]" test-instance-name="Dynamic text (os &amp; browser)" name="test" duration-ms="86" started-at="2017-02-24T20:03:24Z" data-provider="dp" finished-at="2017-02-24T20:03:24Z">
           <params>
             <param index="0">
               <value>
@@ -654,7 +590,7 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[(368, 42)]]>
+                <![CDATA[(356, 43)]]>
               </value>
             </param>
             <param index="4">
@@ -666,27 +602,39 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="am()[pri:0, instance:core.ElementsValidationTest@d8355a8]" test-instance-name="Page title (Confirmation)" name="am" is-config="true" duration-ms="2916" started-at="2017-02-23T13:46:43Z" finished-at="2017-02-23T13:46:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- am -->
-        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTest@d8355a8]" test-instance-name="Page title (Confirmation)" name="bm" is-config="true" duration-ms="0" started-at="2017-02-23T13:46:46Z" finished-at="2017-02-23T13:46:46Z">
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTest2@3ffc5af1]" test-instance-name="Dynamic text (os &amp; browser)" name="bm" is-config="true" duration-ms="0" started-at="2017-02-24T20:03:24Z" finished-at="2017-02-24T20:03:24Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void core.ElementsValidationTest.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException]]>
+                <![CDATA[public void core.ElementsValidationTest2.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[[Ljava.lang.Object;@14dd7b39]]>
+                <![CDATA[[Ljava.lang.Object;@928763c]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bm -->
-        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTest@d8355a8]" test-instance-name="Page title (Confirmation)" name="test" duration-ms="1903" started-at="2017-02-23T13:46:46Z" data-provider="dp" finished-at="2017-02-23T13:46:48Z">
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTest2@3ffc5af1]" test-instance-name="Dynamic text (os &amp; browser)" name="bm" is-config="true" duration-ms="1" started-at="2017-02-24T20:03:24Z" finished-at="2017-02-24T20:03:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.ElementsValidationTest2.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@e25951c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTest2@3ffc5af1]" test-instance-name="Dynamic text (os &amp; browser)" name="test" duration-ms="104" started-at="2017-02-24T20:03:24Z" data-provider="dp" finished-at="2017-02-24T20:03:24Z">
           <params>
             <param index="0">
               <value>
@@ -705,39 +653,19 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[(43, 23)]]>
+                <![CDATA[(43, 24)]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[(612, 354)]]>
+                <![CDATA[(611, 355)]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="am()[pri:0, instance:core.ElementsValidationTest@d8355a8]" test-instance-name="Page title (Confirmation)" name="am" is-config="true" duration-ms="2920" started-at="2017-02-23T13:46:48Z" finished-at="2017-02-23T13:46:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- am -->
-        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTest@d8355a8]" test-instance-name="Page title (Confirmation)" name="bm" is-config="true" duration-ms="0" started-at="2017-02-23T13:46:51Z" finished-at="2017-02-23T13:46:51Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.ElementsValidationTest.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[Ljava.lang.Object;@66ea810]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bm -->
-        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTest@d8355a8]" test-instance-name="Page title (Confirmation)" name="test" duration-ms="1986" started-at="2017-02-23T13:46:51Z" data-provider="dp" finished-at="2017-02-23T13:46:53Z">
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTest2@3ffc5af1]" test-instance-name="Dynamic text (os &amp; browser)" name="test" duration-ms="64" started-at="2017-02-24T20:03:24Z" data-provider="dp" finished-at="2017-02-24T20:03:24Z">
           <params>
             <param index="0">
               <value>
@@ -761,18 +689,46 @@
             </param>
             <param index="4">
               <value>
-                <![CDATA[(571, 353)]]>
+                <![CDATA[(571, 354)]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="am()[pri:0, instance:core.ElementsValidationTest@d8355a8]" test-instance-name="Page title (Confirmation)" name="am" is-config="true" duration-ms="2903" started-at="2017-02-23T13:46:53Z" finished-at="2017-02-23T13:46:55Z">
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTest2@3ffc5af1]" test-instance-name="Dynamic text (os &amp; browser)" name="bm" is-config="true" duration-ms="0" started-at="2017-02-24T20:03:24Z" finished-at="2017-02-24T20:03:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.ElementsValidationTest2.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@15f47664]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- am -->
-        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTest@d8355a8]" test-instance-name="Page title (Confirmation)" name="test" duration-ms="2248" started-at="2017-02-23T13:46:55Z" data-provider="dp" finished-at="2017-02-23T13:46:58Z">
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTest2@3ffc5af1]" test-instance-name="Dynamic text (os &amp; browser)" name="bm" is-config="true" duration-ms="1" started-at="2017-02-24T20:03:24Z" finished-at="2017-02-24T20:03:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.ElementsValidationTest2.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@471a9022]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTest2@3ffc5af1]" test-instance-name="Dynamic text (os &amp; browser)" name="test" duration-ms="170" started-at="2017-02-24T20:03:24Z" data-provider="dp" finished-at="2017-02-24T20:03:24Z">
           <params>
             <param index="0">
               <value>
@@ -791,55 +747,19 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[(66, 23)]]>
+                <![CDATA[(66, 24)]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[(792, 354)]]>
+                <![CDATA[(791, 355)]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTest@d8355a8]" test-instance-name="Page title (Confirmation)" name="bm" is-config="true" duration-ms="0" started-at="2017-02-23T13:46:55Z" finished-at="2017-02-23T13:46:55Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.ElementsValidationTest.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[Ljava.lang.Object;@6cd24612]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bm -->
-        <test-method status="PASS" signature="am()[pri:0, instance:core.ElementsValidationTest@d8355a8]" test-instance-name="Page title (Confirmation)" name="am" is-config="true" duration-ms="2870" started-at="2017-02-23T13:46:58Z" finished-at="2017-02-23T13:47:01Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- am -->
-        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTest@d8355a8]" test-instance-name="Page title (Confirmation)" name="bm" is-config="true" duration-ms="0" started-at="2017-02-23T13:47:01Z" finished-at="2017-02-23T13:47:01Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.ElementsValidationTest.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[Ljava.lang.Object;@5dafbe45]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bm -->
-        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTest@d8355a8]" test-instance-name="Page title (Confirmation)" name="test" duration-ms="1918" started-at="2017-02-23T13:47:01Z" data-provider="dp" finished-at="2017-02-23T13:47:02Z">
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTest2@3ffc5af1]" test-instance-name="Dynamic text (os &amp; browser)" name="test" duration-ms="83" started-at="2017-02-24T20:03:24Z" data-provider="dp" finished-at="2017-02-24T20:03:25Z">
           <params>
             <param index="0">
               <value>
@@ -863,34 +783,46 @@
             </param>
             <param index="4">
               <value>
-                <![CDATA[(751, 353)]]>
+                <![CDATA[(751, 354)]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="am()[pri:0, instance:core.ElementsValidationTest@d8355a8]" test-instance-name="Page title (Confirmation)" name="am" is-config="true" duration-ms="2889" started-at="2017-02-23T13:47:02Z" finished-at="2017-02-23T13:47:05Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- am -->
-        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTest@d8355a8]" test-instance-name="Page title (Confirmation)" name="bm" is-config="true" duration-ms="0" started-at="2017-02-23T13:47:05Z" finished-at="2017-02-23T13:47:05Z">
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTest2@3ffc5af1]" test-instance-name="Dynamic text (os &amp; browser)" name="bm" is-config="true" duration-ms="0" started-at="2017-02-24T20:03:24Z" finished-at="2017-02-24T20:03:24Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void core.ElementsValidationTest.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException]]>
+                <![CDATA[public void core.ElementsValidationTest2.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[[Ljava.lang.Object;@2254127a]]>
+                <![CDATA[[Ljava.lang.Object;@dc9876b]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bm -->
-        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTest@d8355a8]" test-instance-name="Page title (Confirmation)" name="test" duration-ms="1919" started-at="2017-02-23T13:47:05Z" data-provider="dp" finished-at="2017-02-23T13:47:07Z">
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTest2@3ffc5af1]" test-instance-name="Dynamic text (os &amp; browser)" name="bm" is-config="true" duration-ms="0" started-at="2017-02-24T20:03:25Z" finished-at="2017-02-24T20:03:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.ElementsValidationTest2.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@2f666ebb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTest2@3ffc5af1]" test-instance-name="Dynamic text (os &amp; browser)" name="test" duration-ms="73" started-at="2017-02-24T20:03:25Z" data-provider="dp" finished-at="2017-02-24T20:03:25Z">
           <params>
             <param index="0">
               <value>
@@ -909,7 +841,7 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[(50, 25)]]>
+                <![CDATA[(49, 25)]]>
               </value>
             </param>
             <param index="4">
@@ -921,27 +853,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="am()[pri:0, instance:core.ElementsValidationTest@d8355a8]" test-instance-name="Page title (Confirmation)" name="am" is-config="true" duration-ms="2869" started-at="2017-02-23T13:47:07Z" finished-at="2017-02-23T13:47:10Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- am -->
-        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTest@d8355a8]" test-instance-name="Page title (Confirmation)" name="bm" is-config="true" duration-ms="0" started-at="2017-02-23T13:47:10Z" finished-at="2017-02-23T13:47:10Z">
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTest2@3ffc5af1]" test-instance-name="Dynamic text (os &amp; browser)" name="bm" is-config="true" duration-ms="1" started-at="2017-02-24T20:03:25Z" finished-at="2017-02-24T20:03:25Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void core.ElementsValidationTest.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException]]>
+                <![CDATA[public void core.ElementsValidationTest2.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[[Ljava.lang.Object;@51891008]]>
+                <![CDATA[[Ljava.lang.Object;@19976a65]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bm -->
-        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTest@d8355a8]" test-instance-name="Page title (Confirmation)" name="test" duration-ms="1868" started-at="2017-02-23T13:47:10Z" data-provider="dp" finished-at="2017-02-23T13:47:12Z">
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTest2@3ffc5af1]" test-instance-name="Dynamic text (os &amp; browser)" name="test" duration-ms="124" started-at="2017-02-24T20:03:25Z" data-provider="dp" finished-at="2017-02-24T20:03:25Z">
           <params>
             <param index="0">
               <value>
@@ -960,7 +888,7 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[(345, 44)]]>
+                <![CDATA[(346, 45)]]>
               </value>
             </param>
             <param index="4">
@@ -972,27 +900,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="am()[pri:0, instance:core.ElementsValidationTest@d8355a8]" test-instance-name="Page title (Confirmation)" name="am" is-config="true" duration-ms="2923" started-at="2017-02-23T13:47:12Z" finished-at="2017-02-23T13:47:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- am -->
-        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTest@d8355a8]" test-instance-name="Page title (Confirmation)" name="bm" is-config="true" duration-ms="0" started-at="2017-02-23T13:47:15Z" finished-at="2017-02-23T13:47:15Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.ElementsValidationTest.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[Ljava.lang.Object;@2f953efd]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bm -->
-        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTest@d8355a8]" test-instance-name="Page title (Confirmation)" name="test" duration-ms="1884" started-at="2017-02-23T13:47:15Z" data-provider="dp" finished-at="2017-02-23T13:47:17Z">
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTest2@3ffc5af1]" test-instance-name="Dynamic text (os &amp; browser)" name="test" duration-ms="62" started-at="2017-02-24T20:03:25Z" data-provider="dp" finished-at="2017-02-24T20:03:25Z">
           <params>
             <param index="0">
               <value>
@@ -1011,39 +919,51 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[(234, 29)]]>
+                <![CDATA[(231, 30)]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[(604, 414)]]>
+                <![CDATA[(603, 415)]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="am()[pri:0, instance:core.ElementsValidationTest@d8355a8]" test-instance-name="Page title (Confirmation)" name="am" is-config="true" duration-ms="2898" started-at="2017-02-23T13:47:17Z" finished-at="2017-02-23T13:47:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- am -->
-        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTest@d8355a8]" test-instance-name="Page title (Confirmation)" name="bm" is-config="true" duration-ms="0" started-at="2017-02-23T13:47:20Z" finished-at="2017-02-23T13:47:20Z">
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTest2@3ffc5af1]" test-instance-name="Dynamic text (os &amp; browser)" name="bm" is-config="true" duration-ms="0" started-at="2017-02-24T20:03:25Z" finished-at="2017-02-24T20:03:25Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void core.ElementsValidationTest.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException]]>
+                <![CDATA[public void core.ElementsValidationTest2.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[[Ljava.lang.Object;@f68f0dc]]>
+                <![CDATA[[Ljava.lang.Object;@a1f72f5]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bm -->
-        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTest@d8355a8]" test-instance-name="Page title (Confirmation)" name="test" duration-ms="1958" started-at="2017-02-23T13:47:20Z" data-provider="dp" finished-at="2017-02-23T13:47:22Z">
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTest2@3ffc5af1]" test-instance-name="Dynamic text (os &amp; browser)" name="bm" is-config="true" duration-ms="0" started-at="2017-02-24T20:03:25Z" finished-at="2017-02-24T20:03:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.ElementsValidationTest2.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@4b2c5e02]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTest2@3ffc5af1]" test-instance-name="Dynamic text (os &amp; browser)" name="test" duration-ms="57" started-at="2017-02-24T20:03:25Z" data-provider="dp" finished-at="2017-02-24T20:03:25Z">
           <params>
             <param index="0">
               <value>
@@ -1074,27 +994,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="am()[pri:0, instance:core.ElementsValidationTest@d8355a8]" test-instance-name="Page title (Confirmation)" name="am" is-config="true" duration-ms="2882" started-at="2017-02-23T13:47:22Z" finished-at="2017-02-23T13:47:25Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- am -->
-        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTest@d8355a8]" test-instance-name="Page title (Confirmation)" name="bm" is-config="true" duration-ms="0" started-at="2017-02-23T13:47:25Z" finished-at="2017-02-23T13:47:25Z">
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTest2@3ffc5af1]" test-instance-name="Dynamic text (os &amp; browser)" name="bm" is-config="true" duration-ms="0" started-at="2017-02-24T20:03:25Z" finished-at="2017-02-24T20:03:25Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void core.ElementsValidationTest.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException]]>
+                <![CDATA[public void core.ElementsValidationTest2.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[[Ljava.lang.Object;@d2de489]]>
+                <![CDATA[[Ljava.lang.Object;@57a3e26a]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bm -->
-        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTest@d8355a8]" test-instance-name="Page title (Confirmation)" name="test" duration-ms="2234" started-at="2017-02-23T13:47:25Z" data-provider="dp" finished-at="2017-02-23T13:47:27Z">
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTest2@3ffc5af1]" test-instance-name="Dynamic text (os &amp; browser)" name="test" duration-ms="61" started-at="2017-02-24T20:03:25Z" data-provider="dp" finished-at="2017-02-24T20:03:25Z">
           <params>
             <param index="0">
               <value>
@@ -1125,11 +1041,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="am()[pri:0, instance:core.ElementsValidationTest@d8355a8]" test-instance-name="Page title (Confirmation)" name="am" is-config="true" duration-ms="2918" started-at="2017-02-23T13:47:27Z" finished-at="2017-02-23T13:47:30Z">
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTest2@3ffc5af1]" test-instance-name="Dynamic text (os &amp; browser)" name="bm" is-config="true" duration-ms="0" started-at="2017-02-24T20:03:25Z" finished-at="2017-02-24T20:03:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.ElementsValidationTest2.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@75c56eb9]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- am -->
-        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTest@d8355a8]" test-instance-name="Page title (Confirmation)" name="test" duration-ms="2203" started-at="2017-02-23T13:47:30Z" data-provider="dp" finished-at="2017-02-23T13:47:32Z">
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTest2@3ffc5af1]" test-instance-name="Dynamic text (os &amp; browser)" name="test" duration-ms="67" started-at="2017-02-24T20:03:25Z" data-provider="dp" finished-at="2017-02-24T20:03:25Z">
           <params>
             <param index="0">
               <value>
@@ -1153,50 +1081,30 @@
             </param>
             <param index="4">
               <value>
-                <![CDATA[(629, 477)]]>
+                <![CDATA[(628, 477)]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTest@d8355a8]" test-instance-name="Page title (Confirmation)" name="bm" is-config="true" duration-ms="0" started-at="2017-02-23T13:47:30Z" finished-at="2017-02-23T13:47:30Z">
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTest2@3ffc5af1]" test-instance-name="Dynamic text (os &amp; browser)" name="bm" is-config="true" duration-ms="0" started-at="2017-02-24T20:03:25Z" finished-at="2017-02-24T20:03:25Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void core.ElementsValidationTest.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException]]>
+                <![CDATA[public void core.ElementsValidationTest2.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[[Ljava.lang.Object;@14bdbc74]]>
+                <![CDATA[[Ljava.lang.Object;@4bc222e]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bm -->
-        <test-method status="PASS" signature="am()[pri:0, instance:core.ElementsValidationTest@d8355a8]" test-instance-name="Page title (Confirmation)" name="am" is-config="true" duration-ms="2933" started-at="2017-02-23T13:47:32Z" finished-at="2017-02-23T13:47:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- am -->
-        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTest@d8355a8]" test-instance-name="Page title (Confirmation)" name="bm" is-config="true" duration-ms="0" started-at="2017-02-23T13:47:35Z" finished-at="2017-02-23T13:47:35Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.ElementsValidationTest.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[Ljava.lang.Object;@12591ac8]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bm -->
-        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTest@d8355a8]" test-instance-name="Page title (Confirmation)" name="test" duration-ms="2019" started-at="2017-02-23T13:47:35Z" data-provider="dp" finished-at="2017-02-23T13:47:37Z">
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTest2@3ffc5af1]" test-instance-name="Dynamic text (os &amp; browser)" name="test" duration-ms="114" started-at="2017-02-24T20:03:25Z" data-provider="dp" finished-at="2017-02-24T20:03:25Z">
           <params>
             <param index="0">
               <value>
@@ -1220,34 +1128,30 @@
             </param>
             <param index="4">
               <value>
-                <![CDATA[(698, 477)]]>
+                <![CDATA[(697, 477)]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="am()[pri:0, instance:core.ElementsValidationTest@d8355a8]" test-instance-name="Page title (Confirmation)" name="am" is-config="true" duration-ms="2902" started-at="2017-02-23T13:47:37Z" finished-at="2017-02-23T13:47:40Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- am -->
-        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTest@d8355a8]" test-instance-name="Page title (Confirmation)" name="bm" is-config="true" duration-ms="0" started-at="2017-02-23T13:47:40Z" finished-at="2017-02-23T13:47:40Z">
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTest2@3ffc5af1]" test-instance-name="Dynamic text (os &amp; browser)" name="bm" is-config="true" duration-ms="1" started-at="2017-02-24T20:03:25Z" finished-at="2017-02-24T20:03:25Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void core.ElementsValidationTest.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException]]>
+                <![CDATA[public void core.ElementsValidationTest2.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[[Ljava.lang.Object;@5a7fe64f]]>
+                <![CDATA[[Ljava.lang.Object;@2dc9b0f5]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bm -->
-        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTest@d8355a8]" test-instance-name="Page title (Confirmation)" name="test" duration-ms="2040" started-at="2017-02-23T13:47:40Z" data-provider="dp" finished-at="2017-02-23T13:47:42Z">
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTest2@3ffc5af1]" test-instance-name="Dynamic text (os &amp; browser)" name="test" duration-ms="117" started-at="2017-02-24T20:03:25Z" data-provider="dp" finished-at="2017-02-24T20:03:25Z">
           <params>
             <param index="0">
               <value>
@@ -1271,18 +1175,30 @@
             </param>
             <param index="4">
               <value>
-                <![CDATA[(767, 477)]]>
+                <![CDATA[(766, 477)]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="am()[pri:0, instance:core.ElementsValidationTest@d8355a8]" test-instance-name="Page title (Confirmation)" name="am" is-config="true" duration-ms="2904" started-at="2017-02-23T13:47:42Z" finished-at="2017-02-23T13:47:45Z">
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTest2@3ffc5af1]" test-instance-name="Dynamic text (os &amp; browser)" name="bm" is-config="true" duration-ms="1" started-at="2017-02-24T20:03:25Z" finished-at="2017-02-24T20:03:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.ElementsValidationTest2.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@6531a794]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- am -->
-        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTest@d8355a8]" test-instance-name="Page title (Confirmation)" name="test" duration-ms="2002" started-at="2017-02-23T13:47:45Z" data-provider="dp" finished-at="2017-02-23T13:47:47Z">
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTest2@3ffc5af1]" test-instance-name="Dynamic text (os &amp; browser)" name="test" duration-ms="65" started-at="2017-02-24T20:03:25Z" data-provider="dp" finished-at="2017-02-24T20:03:25Z">
           <params>
             <param index="0">
               <value>
@@ -1301,55 +1217,19 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[(104, 37)]]>
+                <![CDATA[(110, 41)]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[(986, 493)]]>
+                <![CDATA[(986, 492)]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTest@d8355a8]" test-instance-name="Page title (Confirmation)" name="bm" is-config="true" duration-ms="0" started-at="2017-02-23T13:47:45Z" finished-at="2017-02-23T13:47:45Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.ElementsValidationTest.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[Ljava.lang.Object;@38145825]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bm -->
-        <test-method status="PASS" signature="am()[pri:0, instance:core.ElementsValidationTest@d8355a8]" test-instance-name="Page title (Confirmation)" name="am" is-config="true" duration-ms="2901" started-at="2017-02-23T13:47:47Z" finished-at="2017-02-23T13:47:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- am -->
-        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTest@d8355a8]" test-instance-name="Page title (Confirmation)" name="bm" is-config="true" duration-ms="0" started-at="2017-02-23T13:47:50Z" finished-at="2017-02-23T13:47:50Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.ElementsValidationTest.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[Ljava.lang.Object;@41330d4f]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bm -->
-        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTest@d8355a8]" test-instance-name="Page title (Confirmation)" name="test" duration-ms="2019" started-at="2017-02-23T13:47:50Z" data-provider="dp" finished-at="2017-02-23T13:47:52Z">
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTest2@3ffc5af1]" test-instance-name="Dynamic text (os &amp; browser)" name="test" duration-ms="138" started-at="2017-02-24T20:03:25Z" data-provider="dp" finished-at="2017-02-24T20:03:25Z">
           <params>
             <param index="0">
               <value>
@@ -1368,27 +1248,39 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[(118, 37)]]>
+                <![CDATA[(123, 41)]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[(1241, 493)]]>
+                <![CDATA[(1235, 492)]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="am()[pri:0, instance:core.ElementsValidationTest@d8355a8]" test-instance-name="Page title (Confirmation)" name="am" is-config="true" duration-ms="2901" started-at="2017-02-23T13:47:52Z" finished-at="2017-02-23T13:47:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- am -->
-        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTest@d8355a8]" test-instance-name="Page title (Confirmation)" name="test" duration-ms="1971" started-at="2017-02-23T13:47:55Z" data-provider="dp" finished-at="2017-02-23T13:47:57Z">
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTest2@3ffc5af1]" test-instance-name="Dynamic text (os &amp; browser)" name="bm" is-config="true" duration-ms="0" started-at="2017-02-24T20:03:25Z" finished-at="2017-02-24T20:03:25Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Dynamic text (todayâ€™s date)]]>
+                <![CDATA[public void core.ElementsValidationTest2.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@3b5fad2d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTest2@3ffc5af1]" test-instance-name="Dynamic text (os &amp; browser)" name="test" duration-ms="102" started-at="2017-02-24T20:03:25Z" data-provider="dp" finished-at="2017-02-24T20:03:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dynamic text (today\u2019s date)]]>
               </value>
             </param>
             <param index="1">
@@ -1408,34 +1300,46 @@
             </param>
             <param index="4">
               <value>
-                <![CDATA[(535, 550)]]>
+                <![CDATA[(535, 551)]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTest@d8355a8]" test-instance-name="Page title (Confirmation)" name="bm" is-config="true" duration-ms="0" started-at="2017-02-23T13:47:55Z" finished-at="2017-02-23T13:47:55Z">
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTest2@3ffc5af1]" test-instance-name="Dynamic text (os &amp; browser)" name="bm" is-config="true" duration-ms="0" started-at="2017-02-24T20:03:25Z" finished-at="2017-02-24T20:03:25Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void core.ElementsValidationTest.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException]]>
+                <![CDATA[public void core.ElementsValidationTest2.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[[Ljava.lang.Object;@1b66c0fb]]>
+                <![CDATA[[Ljava.lang.Object;@5e17553a]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bm -->
-        <test-method status="PASS" signature="am()[pri:0, instance:core.ElementsValidationTest@d8355a8]" test-instance-name="Page title (Confirmation)" name="am" is-config="true" duration-ms="2883" started-at="2017-02-23T13:47:57Z" finished-at="2017-02-23T13:47:59Z">
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTest2@3ffc5af1]" test-instance-name="Dynamic text (os &amp; browser)" name="bm" is-config="true" duration-ms="1" started-at="2017-02-24T20:03:26Z" finished-at="2017-02-24T20:03:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.ElementsValidationTest2.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@3eb91815]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- am -->
-        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTest@d8355a8]" test-instance-name="Page title (Confirmation)" name="test" duration-ms="1975" started-at="2017-02-23T13:47:59Z" data-provider="dp" finished-at="2017-02-23T13:48:01Z">
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTest2@3ffc5af1]" test-instance-name="Dynamic text (os &amp; browser)" name="test" duration-ms="61" started-at="2017-02-24T20:03:26Z" data-provider="dp" finished-at="2017-02-24T20:03:26Z">
           <params>
             <param index="0">
               <value>
@@ -1459,34 +1363,14 @@
             </param>
             <param index="4">
               <value>
-                <![CDATA[(825, 550)]]>
+                <![CDATA[(825, 551)]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTest@d8355a8]" test-instance-name="Page title (Confirmation)" name="bm" is-config="true" duration-ms="0" started-at="2017-02-23T13:47:59Z" finished-at="2017-02-23T13:47:59Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.ElementsValidationTest.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[Ljava.lang.Object;@3e0e1046]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bm -->
-        <test-method status="PASS" signature="am()[pri:0, instance:core.ElementsValidationTest@d8355a8]" test-instance-name="Page title (Confirmation)" name="am" is-config="true" duration-ms="2868" started-at="2017-02-23T13:48:01Z" finished-at="2017-02-23T13:48:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- am -->
-        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTest@d8355a8]" test-instance-name="Page title (Confirmation)" name="test" duration-ms="1987" started-at="2017-02-23T13:48:04Z" data-provider="dp" finished-at="2017-02-23T13:48:06Z">
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTest2@3ffc5af1]" test-instance-name="Dynamic text (os &amp; browser)" name="test" duration-ms="54" started-at="2017-02-24T20:03:26Z" data-provider="dp" finished-at="2017-02-24T20:03:26Z">
           <params>
             <param index="0">
               <value>
@@ -1510,85 +1394,34 @@
             </param>
             <param index="4">
               <value>
-                <![CDATA[(1075, 550)]]>
+                <![CDATA[(1075, 551)]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTest@d8355a8]" test-instance-name="Page title (Confirmation)" name="bm" is-config="true" duration-ms="0" started-at="2017-02-23T13:48:04Z" finished-at="2017-02-23T13:48:04Z">
+        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTest2@3ffc5af1]" test-instance-name="Dynamic text (os &amp; browser)" name="bm" is-config="true" duration-ms="0" started-at="2017-02-24T20:03:26Z" finished-at="2017-02-24T20:03:26Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void core.ElementsValidationTest.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException]]>
+                <![CDATA[public void core.ElementsValidationTest2.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[[Ljava.lang.Object;@24c1b2d2]]>
+                <![CDATA[[Ljava.lang.Object;@56dc1551]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bm -->
-        <test-method status="PASS" signature="am()[pri:0, instance:core.ElementsValidationTest@d8355a8]" test-instance-name="Page title (Confirmation)" name="am" is-config="true" duration-ms="2901" started-at="2017-02-23T13:48:06Z" finished-at="2017-02-23T13:48:09Z">
+        <test-method status="PASS" signature="am()[pri:0, instance:core.ElementsValidationTest2@3ffc5af1]" test-instance-name="" name="am" is-config="true" duration-ms="1954" started-at="2017-02-24T20:03:26Z" finished-at="2017-02-24T20:03:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- am -->
-        <test-method status="PASS" signature="bm(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:core.ElementsValidationTest@d8355a8]" test-instance-name="Page title (Confirmation)" name="bm" is-config="true" duration-ms="0" started-at="2017-02-23T13:48:09Z" finished-at="2017-02-23T13:48:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.ElementsValidationTest.test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[Ljava.lang.Object;@7dc19a70]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bm -->
-        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:core.ElementsValidationTest@d8355a8]" test-instance-name="Page title (Confirmation)" name="test" duration-ms="2507" started-at="2017-02-23T13:48:09Z" data-provider="dp" finished-at="2017-02-23T13:48:12Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Page title (Confirmation)]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[confirmation.php]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[id_f_title]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[(249, 46)]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[(560, 84)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method status="PASS" signature="am()[pri:0, instance:core.ElementsValidationTest@d8355a8]" test-instance-name="Page title (Confirmation)" name="am" is-config="true" duration-ms="2880" started-at="2017-02-23T13:48:12Z" finished-at="2017-02-23T13:48:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- am -->
-      </class> <!-- core.ElementsValidationTest -->
+      </class> <!-- core.ElementsValidationTest2 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="core.ElementsValidationTest">
+      <class name="core.ElementsValidationTest2">
         <methods>
-          <include name="test" invocation-numbers="0 1 2"/>
           <include name="am"/>
           <include name="bm"/>
+          <include name="test" invocation-numbers="4 9 13 15 19 25 26"/>
         </methods>
-      </class> <!-- core.ElementsValidationTest -->
+      </class> <!-- core.ElementsValidationTest2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
