@@ -22,7 +22,21 @@ public class Browsers {
 	private static final String mac="MAC"; // mac
 	static final String win="WINDOWS"; // windows
 	static final String os="os.name"; // OS name
+	static final String fireFox="Firefox"; // browser name
+	static final String chrome="Chrome"; // browser name
+	static final String safari="Safari"; // browser name
+	static final String iExplorer="IE"; // browser name
+	static final String edge="Edge"; // browser name
+	static final String htmlUnit="HtmlUnit"; // browser name
+	
 	static final String driverPathEdge = "./src/main/resources/webdrivers/pc/MicrosoftWebDriver.exe";
+	static final String driverPathChromeMAC = "./src/main/resources/webdrivers/mac/chromedriver";
+	static final String driverPathChromeWIN = "./src/main/resources/webdrivers/pc/chromedriver.exe";
+	static final String driverPathFFMAC = "./src/main/resources/webdrivers/mac/geckodriver.sh";
+	static final String driverPathFFWIN = "./src/main/resources/webdrivers/pc/geckodriver.exe";	
+	static final String driverPathIE = "./src/main/resources/webdrivers/pc/IEDriverServer.exe";
+	
+	
 	static Logger log = Logger.getLogger(Browsers.class.getName());
 	Browsers() {};
 
@@ -32,38 +46,27 @@ public class Browsers {
         String driverPath = ""; // project folder with browsers drivers
 
         
-  if ("Firefox".equals(browser) && System.getProperty(os).toUpperCase().contains(mac)) 
-/*	  Multiple markers at this line
-		- When doing a String.toLowerCase()/toUpperCase() call, use a Locale
-		- Useless parentheses.
-		- Potential violation of Law of Demeter (method chain calls)
-		- The String literal mac appears 6 times in this file; the first occurrence is 
-		  on line 28
-		- The String literal os appears 12 times in this file; the first occurrence is 
-		 on line 28*/
-        {driverPath = "./src/main/resources/webdrivers/mac/geckodriver.sh";}
-else if (("Firefox".equals(browser)) && (System.getProperty(os).toUpperCase().contains(win))) 
-        {driverPath = "./src/main/resources/webdrivers/pc/geckodriver.exe";}
-else if (("Chrome".equals(browser)) && (System.getProperty(os).toUpperCase().contains(mac))) 
-        {driverPath = "./src/main/resources/webdrivers/mac/chromedriver";}
-else if (("Chrome".equals(browser)) && (System.getProperty(os).toUpperCase().contains(win))) 
-        {driverPath = "./src/main/resources/webdrivers/pc/chromedriver.exe";}
-else if (("Safari".equals(browser)) && (System.getProperty(os).toUpperCase().contains(mac)))
+     if (fireFox.equals(browser) && System.getProperty(os).toUpperCase().contains(mac)) 
+        {driverPath = driverPathFFMAC;}
+else if ((fireFox.equals(browser)) && (System.getProperty(os).toUpperCase().contains(win))) 
+        {driverPath = driverPathFFWIN;}
+else if ((chrome.equals(browser)) && (System.getProperty(os).toUpperCase().contains(mac))) 
+        {driverPath = driverPathChromeMAC;}
+else if ((chrome.equals(browser)) && (System.getProperty(os).toUpperCase().contains(win))) 
+        {driverPath = driverPathChromeWIN;}
+else if ((safari.equals(browser)) && (System.getProperty(os).toUpperCase().contains(mac)))
        {}
-else if (("Safari".equals(browser)) && (System.getProperty(os).toUpperCase().contains(win))) 
+else if ((safari.equals(browser)) && (System.getProperty(os).toUpperCase().contains(win))) 
        {throw new IllegalArgumentException("Safari is not available for Windows");}
-else if (("IE".equals(browser)) && (System.getProperty(os).toUpperCase().contains(mac))) 
+else if ((iExplorer.equals(browser)) && (System.getProperty(os).toUpperCase().contains(mac))) 
        {throw new IllegalArgumentException("Internet Explorer is not available for macOS");}
-else if (("IE".equals(browser)) && (System.getProperty(os).toUpperCase().contains(win))) 
-       {driverPath = "./src/main/resources/webdrivers/pc/IEDriverServer.exe";}
-else if (("Edge".equals(browser)) && (System.getProperty(os).toUpperCase().contains(mac))) 
+else if ((iExplorer.equals(browser)) && (System.getProperty(os).toUpperCase().contains(win))) 
+       {driverPath = driverPathIE;}
+else if ((edge.equals(browser)) && (System.getProperty(os).toUpperCase().contains(mac))) 
        {throw new IllegalArgumentException("Microsoft Edge is not available for macOS");}
-else if (("Edge".equals(browser)) && (System.getProperty(os).toUpperCase().contains(win)))
+else if ((edge.equals(browser)) && (System.getProperty(os).toUpperCase().contains(win)))
        {driverPath = driverPathEdge;}
-else if ("HtmlUnit".equals(browser)) //Use equals() to compare strings instead of '==' or '!='
-									//Position literals first in String comparisons - 
-									//that way if the String is null you won't get 
-									//a NullPointerException, it'll just return false.
+else if (htmlUnit.equals(browser))
 		  {}
 else   {throw new IllegalArgumentException("Unknown OS");}
 
