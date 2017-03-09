@@ -23,6 +23,8 @@ public class Browsers {
 	static final String win="WINDOWS"; // windows
 	static final String os="os.name"; // OS name
 	static final String driverPathEdge = "./src/main/resources/webdrivers/pc/MicrosoftWebDriver.exe";
+	static Logger log = Logger.getLogger(Browsers.class.getName());
+	Browsers() {};
 
 	public static void setWebDriver(String browser) throws IOException {
         Logger logger = Logger.getLogger("");
